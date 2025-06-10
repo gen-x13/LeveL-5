@@ -606,7 +606,7 @@ def analyze(upload_file):
                 def __init__(self, title, graph_type, metric, name="Graphic"):
                     
                     self.title = title
-                    self.graphe_type = graph_type
+                    self.graph_type = graph_type
                     self.metric = metric
                     self.name = name
                     
@@ -779,7 +779,6 @@ def analyze(upload_file):
             
                     
 if upload_file is not None:
-    
     analyze(upload_file)
 
     
