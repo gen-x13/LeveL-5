@@ -1,4 +1,5 @@
 pandas 
+kaleido
 streamlit 
 plotly
 reportlab 
