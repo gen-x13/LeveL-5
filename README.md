@@ -45,10 +45,9 @@ I’m planning a future remake with:
    ```
 ---
 
-### **▶️ How to Run the Streamlit App:**
-To launch the app, just follow these steps:
+### **## 🚀 Demo**
 
-1. 
+👉 [Click here to test the Streamlit live app](https://level-5-my-analysis-report.streamlit.app/)
 
 ---
 
