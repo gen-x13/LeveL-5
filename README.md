@@ -55,7 +55,7 @@ To launch the app, just follow these steps:
 ### **📦 Requirements**  
 Before running the project, make sure you have the following libraries installed:  
 ```bash
-pip install pandas streamlit io reportlab 
+pip install pandas streamlit io reportlab plotly
 
 ```
 ---
