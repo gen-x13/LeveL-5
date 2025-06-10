@@ -712,7 +712,7 @@ def analyze(upload_file):
                     if g.name in selection:
                         
                         f = io.BytesIO()
-                        pio.write_image(g.graph_type, f, format="png")
+                        pio.write_image(getattr(g, 'graph_type'), f, format="png")
                         f.seek(0)
                         
                         image = ImageReader(f)
