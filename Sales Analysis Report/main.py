@@ -603,10 +603,10 @@ def analyze(upload_file):
             
             class Graphic:
                 
-                def __init__(self, title, graphe_type, metric, name="Graphic"):
+                def __init__(self, title, graph_type, metric, name="Graphic"):
                     
                     self.title = title
-                    self.graphe_type = graphe_type
+                    self.graphe_type = graph_type
                     self.metric = metric
                     self.name = name
                     
@@ -712,7 +712,7 @@ def analyze(upload_file):
                     if g.name in selection:
                         
                         f = io.BytesIO()
-                        pio.write_image(g.graphe_type, f, format="png")
+                        pio.write_image(g.graph_type, f, format="png")
                         f.seek(0)
                         
                         image = ImageReader(f)
